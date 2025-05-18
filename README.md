@@ -84,9 +84,6 @@ Estimate the CLV for each customer using a simplified model:
 - Names appeared in inconsistent formats.
 - Used `UPPER(LEFT(...))` and `LOWER(SUBSTRING(...))` to produce readable names like `John Doe`.
 
-### 4. Preventing Division by Zero
-- Used `NULLIF(column, 0)` in calculations (e.g., tenure) to safely avoid errors when dividing.
-
 ---
 
 
